@@ -55,5 +55,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## Status do Projeto
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Angular 🚀 Finalizado  🚧
 </h4>
