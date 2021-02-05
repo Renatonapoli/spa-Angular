@@ -50,10 +50,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <h1 align="center">
     <a href="">🔗 Angular</a>
 </h1>
-<p align="center">🚀 Framework para construir interfaces do usuário com componentes reutilizáveis</p
+<p align="center">🚀 Framework para construir interfaces do usuário com componentes reutilizáveis</p>
 
 ## Status do Projeto
 
 <h4 align="center"> 
-    🚧  Angular-cli 🚀 Finalizado  🚧
+	🚧  React Select 🚀 Em construção...  🚧
 </h4>
