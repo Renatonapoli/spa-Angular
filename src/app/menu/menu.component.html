@@ -1,0 +1,26 @@
+<h1>Menu Inteligente</h1>
+
+<button mat-button [matMenuTriggerFor]="aboveMenu">Acima</button>
+<mat-menu #aboveMenu="matMenu" yPosition="above">
+  <button mat-menu-item>Sushi</button>
+  <button mat-menu-item>Pizza</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="belowMenu">Abaixo</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button mat-menu-item>Sushi</button>
+  <button mat-menu-item>Pizza</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="beforeMenu">Antes</button>
+<mat-menu #beforeMenu="matMenu" xPosition="before">
+  <button mat-menu-item>Sushi</button>
+  <button mat-menu-item>Pizza</button>
+</mat-menu>
+
+
+<button mat-button [matMenuTriggerFor]="afterMenu">Depois de</button>
+<mat-menu #afterMenu="matMenu" xPosition="after">
+  <button mat-menu-item>Sushi</button>
+  <button mat-menu-item>Pizza</button>
+</mat-menu>
