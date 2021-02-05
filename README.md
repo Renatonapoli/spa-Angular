@@ -1,27 +1,59 @@
-# Spaangular
+# SpaAngular 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+Esse projeto foi gerado no Angula-cli (https://github.com/angular/Angula-cli) versão 11.1.2
 
-## Development server
+### Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## Code scaffolding
+### 🎲 Rodando (servidor)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+# Clone este repositório
+$ git clone <https://github.com/Renatonapoli/spa-Angular.git> ou baixe a pasta zip.
 
-## Build
+# Acesse a pasta do projeto no terminal/cmd
+$ cd spa-Angular-master
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Verfique se já tem o Angular instalado em sua máquina
+$ ng --v
 
-## Running unit tests
+# Caso não tenha instale as dependências
+$ npm install –g @angular/cli
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Execute a aplicação em modo de desenvolvimento
+$ ng serve -o
 
-## Running end-to-end tests
+# O servidor inciará na porta:4200 - acesse <http://localhost:4200>
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### 🛠 Tecnologias
 
-## Further help
+As seguintes ferramentas foram usadas na construção do projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Angular Material](https://material.angular.io/)
+- [Node.js](https://nodejs.org/en/)
+- [Angular](https://angular.io/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Html](https://devdocs.io/html/)
+- [CSS](https://devdocs.io/css/)
+
+## Descrição do Projeto
+<p align="center">Desenvolvido uma Api com Angular-cli com cinco componentes integrados em uma Single Page, formulário
+    com input para uma pagina espécifica, botão LINK com direcionamento para um site, card com botões de like e compartilhar,
+    foto exportada da pasta img criada dentro de assets, entre outros.
+</p>
+
+<h1 align="center">
+    <a href="">🔗 Angular</a>
+</h1>
+<p align="center">🚀 Framework para construir interfaces do usuário com componentes reutilizáveis</p
+
+## Status do Projeto
+
+<h4 align="center"> 
+    🚧  Angular-cli 🚀 Finalizado  🚧
+</h4>
